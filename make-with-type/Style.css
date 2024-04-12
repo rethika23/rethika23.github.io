@@ -77,12 +77,39 @@ div.footers {
     justify-content: space-between;
 }
 
-div.Left.f {
+div.Left.f.one {
     text-align: left;
     margin-left: 5%;
+    font-size: 90px;
 }
 
-div.Right.f {
+div.Right.f.two {
     text-align: left;
     margin-right: 5%;
+    font-size: 1000px;
+}
+
+div.numbers.a{
+    color: #000;
+}
+
+div.numbers.b{
+    color: #4c4d4f;
+}
+
+div.numbers.c{
+    color: #b7bbbd;
+}
+
+div.title.x{
+    font-family: 'silverbold';
+}
+
+div.title.y{
+    opacity: 20%;;
+}
+
+
+div.random{
+    transition: 1s;
 }
