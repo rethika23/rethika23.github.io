@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+    background-image: url('Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+img{
+    width: 100%;
+
+}
+
+div.top.a{
+    width: 75%;
+    margin-left: 30%;
+}
+
+div.top.b{
+    width: 75%;
+    margin-left: 20%;
+}
+
+div.top.c{
+    width: 75%;
+    margin-left: 10%;
+}
+
+div.middle{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.bottom{
+    width: 75%;
+    margin-right: 15%;
+}

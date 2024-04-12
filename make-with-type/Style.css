@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'creditcard';
+    src: url('CreditCard.woff');
+    font-family: 'silverbold';
+    src: url('Silverfont.woff');
+}
+
+body{
+    background-color: #8d9092;
+}
+
+div.tab{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+    color: #4c4d4f;
+}
+
+div.Left.heading {
+    text-align: left;
+    margin-left: 5%;
+}
+
+div.Center.heading {
+    text-align: center;
+}
+
+div.Right.heading {
+    text-align: right;
+    margin-right: 5%;
+}
+
+div.numbers {
+    font-size: 80px;
+    font-family: 'creditcard';
+    text-align: center;
+    margin-top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+div.title {
+    font-size: 160px;
+    font-family: 'creditcard';
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+div.question {
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4c4d4f;
+    margin-bottom: 100px;
+}
+
+div.footers {
+    font-size: 80px;
+    font-family: 'creditcard';
+    text-align: center;
+    margin-top: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.Left.f {
+    text-align: left;
+    margin-left: 5%;
+}
+
+div.Right.f {
+    text-align: left;
+    margin-right: 5%;
+}
