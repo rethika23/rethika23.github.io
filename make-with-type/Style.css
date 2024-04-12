@@ -17,20 +17,27 @@ div.tab{
     text-align: center;
     margin-top: 5%;
     color: #4c4d4f;
+    font-weight: bold;
 }
 
-div.Left.heading {
+div.Left.heading.one {
     text-align: left;
     margin-left: 5%;
+    margin-top: 20%;
+    transform: rotate(-120deg) scale(2);
 }
 
-div.Center.heading {
+div.Center.heading.two {
     text-align: center;
+    margin-top: 40%;
+    transform: rotate(240deg) scale(1.5);
 }
 
-div.Right.heading {
+div.Right.heading.three {
     text-align: right;
     margin-right: 5%;
+    margin-top: 60%;
+    transform: rotate(-360deg) scale(0.5);
 }
 
 div.numbers {
@@ -77,28 +84,30 @@ div.footers {
     justify-content: space-between;
 }
 
-div.Left.f.one {
+div.Left.f {
     text-align: left;
     margin-left: 5%;
-    font-size: 90px;
 }
 
-div.Right.f.two {
+div.Right.f {
     text-align: left;
     margin-right: 5%;
-    font-size: 1000px;
+    font-size: 80px;
 }
 
-div.numbers.a{
-    color: #000;
+div.question.a{
+    color: #d3d8db;
+    font-weight: lighter;
 }
 
-div.numbers.b{
+div.question.b{
     color: #4c4d4f;
+    font-weight: bold;
 }
 
-div.numbers.c{
+div.question.c{
     color: #b7bbbd;
+    font-weight: bolder;
 }
 
 div.title.x{
@@ -106,7 +115,11 @@ div.title.x{
 }
 
 div.title.y{
-    opacity: 20%;;
+    opacity: 10%;
+}
+
+div.title.z{
+    color: #4c4d4f;
 }
 
 
