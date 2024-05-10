@@ -1,10 +1,11 @@
 /*Typefaces*/
 @font-face {
-    font-family: 'darkbookitalic';
+    font-family: 'dbitalic';
     src: url('DarkBookDemoItalic.woff');
     font-family: 'darkbookreg';
     src: url('DarkBookDemoRegular.woff');
 }
+
 
 /*Setup*/
 body{
@@ -23,7 +24,19 @@ div.heading{
 /* Typography */
 div.largetext{
     font-size: 100px;
-    line-height: 90px;
+    font-family: 'darkbookitalic';
+}
+
+div.textmedium{
+    font-size: 25px;
+    font-family: 'darkbookreg';
+    line-height: 45px;
+
+}
+
+div.textsmall{
+    font-size: 10px;
+    font-family: 'darkbookreg';
 }
 
 
@@ -32,17 +45,6 @@ div.textcolour{
     color: blue;
 }
 
-div.textred{
-    color: red;
-}
-
-div.bggray{
-    background-color: gray;
-}
-
-div.bgwhite{
-    background-color: white;
-}
 
 /* Widths */
 div.w33{
@@ -61,21 +63,26 @@ div.w99{
 
 /*Design*/
 div.container{
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*Margins*/
 div.mgt1{
-    margin-top: 50px;
+    margin-top: 3%;
 }
 
 div.mgr{
-    margin-right: 10px;
+    margin-right: 3%;
+}
+
+div.mgl{
+    margin-left: 3%;
 }
 
 /*Images*/
 div.logo{
-    width: 20%;
-    margin-right: 66.66%;
+    max-width: 20%;
+    max-height: 20%;
+    margin-right: 33.33%
 }
