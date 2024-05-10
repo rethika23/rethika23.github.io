@@ -13,13 +13,11 @@ body{
 
 }
 
-
 div.heading{
     font-family: 'darkbookreg';
     text-align: right;
     font-size: 150px;
     color: white;
-
 }
 
 /* Typography */
@@ -47,26 +45,25 @@ div.bgwhite{
 }
 
 /* Widths */
-div.w100{
-    width: 100%;
+div.w33{
+    width: 33.33%;
 }
 
-div.w80{
-    width: 80%;
+div.w66{
+    width: 66.66%;
+    text-align: right;
+    margin-left: 33.33%;
 }
 
+div.w99{
+    width: 99.99%;
+}
 
 /*Design*/
 div.container{
 display: flex;
 flex-wrap: wrap;
 }
-
-div.page{
-    height: 100vh;
-    overflow: scroll;
-}
-
 
 /*Margins*/
 div.mgt1{
@@ -78,6 +75,7 @@ div.mgr{
 }
 
 /*Images*/
-img{
-    width: 100%;
+div.logo{
+    width: 20%;
+    margin-right: 66.66%;
 }
