@@ -15,30 +15,37 @@ body{
 }
 
 div.heading{
-    font-family: 'darkbookreg';
     text-align: right;
     font-size: 150px;
-    color: white;
 }
 
 /* Typography */
 div.largetext{
     font-size: 100px;
-    font-family: 'darkbookitalic';
 }
 
 div.textmedium{
     font-size: 25px;
-    font-family: 'darkbookreg';
-    line-height: 45px;
-
+    line-height: 35px;
 }
 
 div.textsmall{
     font-size: 10px;
-    font-family: 'darkbookreg';
 }
 
+/* Fonts */
+div.italic{
+    font-family: 'darkbookitalic';
+}
+
+div.reg{
+    font-family: 'darkbookreg'; 
+    padding-top: 12px;
+}
+
+div.body{
+    font-family: 'Trebuchet MS';
+}
 
 /* Colours */
 div.textcolour{
@@ -60,11 +67,15 @@ div.w66{
 div.container{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 div.container2{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
 div.square{
