@@ -19,6 +19,19 @@ div.heading{
     font-size: 150px;
 }
 
+.outer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container {
+    width: 98%;
+    border: 8px solid white; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 /* Typography */
 div.largetext{
     font-size: 100px;
