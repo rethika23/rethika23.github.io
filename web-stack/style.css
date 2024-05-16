@@ -1,6 +1,6 @@
 /*Typefaces*/
 @font-face {
-    font-family: 'dbitalic';
+    font-family: 'darkbookitalic';
     src: url('DarkBookDemoItalic.woff');
     font-family: 'darkbookreg';
     src: url('DarkBookDemoRegular.woff');
@@ -34,6 +34,50 @@ div.heading{
     box-sizing: border-box;
 }
 
+
+/* width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+} */
+ 
+
+.testimonial-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-content: center;
+    border-radius: 50%;
+    padding-left: 5%;
+}
+ 
+.testimonial-avatar img {
+    object-fit: cover;
+}
+ 
+.testimonial-name {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'darkbookreg';
+}
+ 
+.testimonial-role {
+    font-size: 15px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    text-align: center; 
+    font-weight: bolder;
+}
+
+.testimonial-text {
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+}
+ 
 /* Typography */
 div.largetext{
     font-size: 100px;
@@ -63,10 +107,9 @@ div.body{
 }
 
 /* Colours */
-div.blue{
-    color: blue;
+div.white{
+    color: white;
 }
-
 
 /* Widths */
 div.w33{
@@ -96,13 +139,18 @@ div.container2{
 div.square{
     width:calc(33.33% - 40px);
     margin: 20px;
-    height: 300px;
-    background-color: black;
+    height: 320px;
+    background-color: #46286a;
 }
 
 /*Margins*/
 div.mgt1{
     margin-top: 3%;
+}
+
+/*Alignment*/
+div.align{
+   align-content: center;
 }
 
 
