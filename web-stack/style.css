@@ -156,13 +156,15 @@ div.align{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
+  width: 30%;
+  height: 30%;
 }
 
 /* Next & previous buttons */
 .prev, .next {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -183,7 +185,7 @@ div.align{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 /* The dots/bullets/indicators */
