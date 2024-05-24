@@ -17,11 +17,6 @@ body{
     background-position: center;
 }
 
-div.heading{
-    text-align: right;
-    font-size: 150px;
-}
-
 .outer-wrapper {
     display: flex;
     justify-content: center;
@@ -33,6 +28,7 @@ div.heading{
     border: 10px solid #46286a; 
     padding: 10px;
     box-sizing: border-box;
+    border-radius: 25px;
 }
 
 .testimonial-avatar {
@@ -78,6 +74,10 @@ div.link{
 }
  
 /* Typography */
+div.heading{
+    font-size: 150px;
+}
+
 div.largetext{
     font-size: 100px;
 }
@@ -89,6 +89,10 @@ div.textmedium{
 
 div.textsmall{
     font-size: 10px;
+}
+
+div.arrows{
+    font-size: 35px;
 }
 
 /* Fonts */
@@ -103,6 +107,7 @@ div.reg{
 
 div.body{
     font-family: 'Trebuchet MS';
+    
 }
 
 /* Colours */
@@ -119,13 +124,23 @@ div.w66{
     width: 66.66%;    
 }
 
-
 /*Design*/
 div.container{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 12px;
     padding-top: 12px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  padding-bottom: 50px;
 }
 
 div.container2{
@@ -140,31 +155,33 @@ div.square{
     margin: 20px;
     height: 320px;
     background-color: #46286a;
+    border-radius: 25px;
 }
 
 /*Margins*/
-div.mgt1{
-    margin-top: 3%;
+div.top{
+    margin-top: 30px;
+}
+
+div.bottom{
+    margin-bottom: 30px;
+}
+
+div.contmar{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*Alignment*/
-div.align{
+div.alignc{
    align-content: center;
 }
 
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin: auto;
-  width: 30%;
-  height: 30%;
-  padding-bottom: 50px;
+div.alignr{
+    text-align: right;
 }
 
-/* Next & previous buttons */
+/* Buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -172,35 +189,32 @@ div.align{
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
   font-weight: bold;
-  font-size: 35px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Fading animation */
+/* Effects */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-.mySlides img{
-    border-radius: 25px
-}
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+/* Images */
+.mySlides img{
+    border-radius: 25px
 }
