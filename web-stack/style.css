@@ -34,36 +34,29 @@ body{
 .testimonial-avatar {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    align-content: center;
-    border-radius: 50%;
+    align-content: right;
     padding-left: 5%;
 }
  
 .testimonial-avatar img {
-    object-fit: cover;
+    object-fit: contain;
 }
  
 .testimonial-name {
-    text-align: center;
     font-size: 25px;
-    color: white;
     font-family: 'darkbookreg';
 }
  
 .testimonial-role {
     font-size: 15px;
-    color: white;
     font-family: 'Trebuchet MS';
-    text-align: center; 
     font-weight: bolder;
 }
 
 .testimonial-text {
     margin-bottom: 20px;
     font-family: 'Trebuchet MS';
-    color: white;
-    text-align: center;
+    padding: 20px;
 }
 
 div.link{
@@ -156,6 +149,7 @@ div.square{
     height: 320px;
     background-color: #46286a;
     border-radius: 25px;
+    position: relative;
 }
 
 /*Margins*/
@@ -179,6 +173,10 @@ div.alignc{
 
 div.alignr{
     text-align: right;
+}
+
+div.middle{
+    text-align: center;
 }
 
 /* Buttons */
@@ -217,4 +215,8 @@ div.alignr{
 /* Images */
 .mySlides img{
     border-radius: 25px
+}
+
+.abstract{
+    border-radius: 25px;
 }
