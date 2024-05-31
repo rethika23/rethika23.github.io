@@ -86,6 +86,11 @@ div.textmedium{
     line-height: 40px;
 }
 
+div.caption{
+    font-size: 20px;
+    font-style: italic;
+}
+
 div.arrows{
     font-size: 35px;
 }
