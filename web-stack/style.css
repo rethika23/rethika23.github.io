@@ -1,9 +1,7 @@
 /*Typefaces*/
 @font-face {
-    font-family: 'darkbookitalic';
-    src: url('DarkBookDemoItalic.woff');
-    font-family: 'darkbookreg';
-    src: url('DarkBookDemoRegular.woff');
+    font-family: 'ofpompila';
+    src: url('OFPompilia-Capitals.woff');
 }
 
 
@@ -48,18 +46,17 @@ body{
  
 .testimonial-name {
     font-size: 25px;
-    font-family: 'darkbookreg';
+    font-family: 'ofpompila';
 }
  
 .testimonial-role {
     font-size: 15px;
-    font-family: 'Trebuchet MS';
-    font-weight: bolder;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .testimonial-text {
     margin-bottom: 20px;
-    font-family: 'Trebuchet MS';
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     padding: 20px;
 }
 
@@ -72,7 +69,7 @@ div.link{
  
 /* Typography */
 div.heading{
-    font-size: 150px;
+    font-size: 170px;
 }
 
 div.largetext{
@@ -93,18 +90,13 @@ div.arrows{
 }
 
 /* Fonts */
-div.italic{
-    font-family: 'darkbookitalic';
-}
-
 div.reg{
-    font-family: 'darkbookreg'; 
+    font-family: 'ofpompila'; 
     padding-top: 12px;
 }
 
 div.body{
-    font-family: 'Trebuchet MS';
-    
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
 /* Colours */
