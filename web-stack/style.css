@@ -59,12 +59,6 @@ body{
     padding: 20px;
 }
 
-div.link{
-    font-size: 25px;
-    color: white;
-    font-family: 'darkbookreg';
-    padding-bottom: 20px;
-}
 
 div.information{
     margin-left: auto;
@@ -109,6 +103,7 @@ div.body{
 div.white{
     color: white;
 }
+
 
 /* Widths */
 div.w33{
@@ -202,6 +197,18 @@ div.aligncenter{
   font-weight: bold;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+}
+
+.button {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 20px;
+    background-color: rgba(215,124,244,1);
+    border-color: rgba(70,40,106,1);
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 5px;
+    margin: 0 auto;
+    display: block;
 }
 
 .next {
