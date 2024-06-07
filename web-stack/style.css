@@ -202,6 +202,7 @@ div.aligncenter{
 .button {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 20px;
+    color: white;
     background-color: rgba(215,124,244,1);
     border-color: rgba(70,40,106,1);
     padding: 20px;
@@ -245,4 +246,12 @@ div.aligncenter{
     height: 100%;
     object-fit: cover;
     border-radius: 25px;
+}
+
+.banner img {
+    width: 900px; 
+    height: auto;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
 }
