@@ -4,7 +4,6 @@
     src: url('OFPompilia-Capitals.woff');
 }
 
-
 /*Setup*/
 body{
     color: white;
@@ -103,7 +102,6 @@ div.body{
 div.white{
     color: white;
 }
-
 
 /* Widths */
 div.w33{
@@ -254,4 +252,9 @@ div.aligncenter{
     border-radius: 25px;
     margin: 0 auto;
     display: block;
+}
+
+.logo img {
+    height: 300px;
+    width:auto;
 }
