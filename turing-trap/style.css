@@ -6,8 +6,8 @@
     src: url('tahoma-bold.woff');
 }
 
-div.body{
-    background: #F0FFE0;
+body{
+    background-color: #F0FFE0;
 }
 
 /*Fonts*/
@@ -31,16 +31,21 @@ div.smalltext{
     font-size: 30px;
 }
 
+div.caption{
+    font-family: 'tahoma';
+    font-size: 20px;
+}
+
 /*Colours*/
-div.palegreen{
+div.pgreen{
     color: #F0FFE0;
 }
 
-div.lightgreen{
+div.lgreen{
     color: #5CB25D;
 }
 
-div.darkgreen{
+div.dgreen{
     color: #0F5132; 
 }
 
@@ -64,6 +69,8 @@ div.width66{
 div.width99{
     width: 100%; 
 }
+
+/* Container */
 
 
 
