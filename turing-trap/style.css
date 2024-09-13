@@ -1,25 +1,69 @@
 /*Typefaces*/
 @font-face {
-    font-family: 'denkone';
-    src: url('DenkOne-Regular.woff');
+    font-family: 'denk';
+    src: url('DenkOne.woff');
     font-family: 'tahoma';
     src: url('tahoma-bold.woff');
 }
 
 div.body{
     background: #F0FFE0;
-    font-family: "denkone";
 }
 
 /*Fonts*/
-div.subheading{
-    font-family: "denkone";
+div.largesttext{
+    font-family: 'denk';
+    font-size: 120px;
+}
+
+div.largetext{
+    font-family: 'denk';
+    font-size: 60px;
+}
+
+div.mediumtext{
+    font-family: 'denk';
+    font-size: 40px;
+}
+
+div.smalltext{
+    font-family: 'tahoma';
+    font-size: 30px;
+}
+
+/*Colours*/
+div.palegreen{
+    color: #F0FFE0;
+}
+
+div.lightgreen{
     color: #5CB25D;
 }
 
-div.summary{
-    font-family: "tahoma";
-    color: #0F5132;
+div.darkgreen{
+    color: #0F5132; 
 }
+
+div.orange{
+    color: #FFB656;
+}
+
+div.yellow{
+    color: #FFFF00;
+}
+
+/*Layout*/
+div.width33{
+    width: 33.333%; 
+}
+
+div.width66{
+    width: 66.666%; 
+}
+
+div.width99{
+    width: 100%; 
+}
+
 
 
