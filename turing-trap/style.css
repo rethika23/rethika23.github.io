@@ -31,9 +31,16 @@ div.smalltext{
     font-size: 30px;
 }
 
-div.caption{
+div.showing{
     font-family: 'tahoma';
-    font-size: 20px;
+    font-size: 25px;
+}
+
+div.description{
+    font-family: 'tahoma';
+    font-size: 12px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 /*Colours*/
