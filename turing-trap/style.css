@@ -70,7 +70,18 @@ div.width99{
     width: 100%; 
 }
 
-/* Container */
+/* Containers */
+div.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
+/* Images */
+div.card img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+}
 
 
