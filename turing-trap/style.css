@@ -95,11 +95,47 @@ div.card{
     text-align: center;
 }
 
-div.image-container {
-    display: inline-block;
-    text-align: center;
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.timetable-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timetable {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Arrows */
+.arrow {
+    font-size: 30px;
+    color: #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.left-arrow {
+    left: 150px;
+}
+  
+.right-arrow {
+    right: 150px;
+}
 
 /* Banners */
 div.breakingnews {
