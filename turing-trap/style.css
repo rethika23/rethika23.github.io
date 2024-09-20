@@ -1,9 +1,12 @@
 /*Typefaces*/
 @font-face {
-    font-family: 'denk';
-    src: url('DenkOne.woff');
-    font-family: 'tahoma';
-    src: url('tahoma-bold.woff');
+    src:url("denk-one.woff");
+    font-family: "denk";
+}
+
+@font-face {
+    src:url("tahoma-bold.woff");
+    font-family: "tahoma";
 }
 
 body{
@@ -12,32 +15,32 @@ body{
 
 /*Fonts*/
 div.largesttext{
-    font-family: 'denk';
+    font-family: "tahoma";
     font-size: 120px;
 }
 
 div.largetext{
-    font-family: 'denk';
+    font-family: "denk";
     font-size: 60px;
 }
 
 div.mediumtext{
-    font-family: 'denk';
+    font-family: "denk";
     font-size: 40px;
 }
 
 div.smalltext{
-    font-family: 'tahoma';
+    font-family: "tahoma";
     font-size: 30px;
 }
 
 div.showing{
-    font-family: 'tahoma';
+    font-family: "tahoma";
     font-size: 25px;
 }
 
 div.description{
-    font-family: 'tahoma';
+    font-family: "tahoma";
     font-size: 12px;
     font-weight: bolder;
     -webkit-text-stroke-width: 1.1px;
@@ -163,5 +166,37 @@ img {
     width: 600px;
     height: auto;
     display: block;
+}
+
+/* marquee */
+
+@keyframes marquee {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+
+.marquee-container {
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    position: relative;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.marquee {
+    top: 0;
+    left: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
 }
 
