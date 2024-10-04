@@ -140,21 +140,6 @@ div.card{
     right: 150px;
 }
 
-/* Banners */
-div.breakingnews {
-    background-color: #82ae66;
-    color: #F0FFE0;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px 0;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    margin: 20px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    position: relative;
-}
-
 /* Images */
 div.card img {
     width: 20%;
@@ -180,21 +165,42 @@ img {
   }
 
 .marquee-container {
-    height: 30px;
-    overflow: hidden;
+    background-color: #82ae66;
+    color: #F0FFE0;
+    font-weight: bold;
+    text-align: center;
     line-height: 30px;
-    position: relative;
-    background-color: red;
+    padding: 20px 0;
+    letter-spacing: 1px;
     border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
+
+
+/* Banners
+div.breakingnews {
+    background-color: #82ae66;
+    color: #F0FFE0;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: relative;
+} */
 
 div.marquee {
     top: 0;
     left: 100%;
     width: 100%;
-    overflow: hidden;
     position: absolute;
     white-space: nowrap;
     animation: marquee 30s linear infinite;
