@@ -15,12 +15,12 @@ body{
 
 /*Fonts*/
 div.largesttext{
-    font-family: "tahoma";
+    font-family: "denk";
     font-size: 120px;
 }
 
 div.largetext{
-    font-family: "denk";
+    font-family: "tahoma";
     font-size: 60px;
 }
 
@@ -43,7 +43,7 @@ div.description{
     font-family: "tahoma";
     font-size: 12px;
     font-weight: bolder;
-    -webkit-text-stroke-width: 1.1px;
+    -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: black;
 }
 
@@ -154,7 +154,6 @@ img {
 }
 
 /* marquee */
-
 @keyframes marquee {
     0% {
       left: 100%;
@@ -180,22 +179,6 @@ img {
     position: relative;
     overflow: hidden;
 }
-
-
-/* Banners
-div.breakingnews {
-    background-color: #82ae66;
-    color: #F0FFE0;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px 0;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    margin: 20px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    position: relative;
-} */
 
 div.marquee {
     top: 0;
