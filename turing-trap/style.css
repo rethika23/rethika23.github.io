@@ -17,21 +17,25 @@ body{
 div.largesttext{
     font-family: "denk";
     font-size: 120px;
+    text-align: center;
 }
 
 div.largetext{
     font-family: "tahoma";
     font-size: 60px;
+    text-align: center;
 }
 
 div.mediumtext{
     font-family: "denk";
     font-size: 40px;
+    text-align: center;
 }
 
 div.smalltext{
     font-family: "tahoma";
     font-size: 30px;
+    text-align: center;
 }
 
 div.showing{
@@ -204,11 +208,29 @@ div.marquee {
 div.title{
     font-family: "tahoma";
     font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 div.subheadings{
     font-family: "tahoma";
     font-size: 35px;
+}
+
+div.tvguide{
+    width: 90%;
+    max-width: 1200px;
+}
+
+div.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 div.row{
