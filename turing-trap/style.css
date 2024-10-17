@@ -250,12 +250,10 @@ div.tvguide{
 div.table {
     width: 100%;
     border-collapse: collapse;
-    color: #000;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    flex-direction: column;
 }
 
 div.row{
@@ -265,12 +263,20 @@ div.row{
     color: #FFFF05;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 div.mins{
     background-color:#02FF00;
+    text-align: center;
+    padding: 10px;
 }
 
 div.hour{
     background-color: #FF00FF;
+    text-align: center;
+    padding: 10px;
 }
