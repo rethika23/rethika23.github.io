@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #F0FFE0;
+    background-color: black;
 }
 
 /*Fonts*/
@@ -48,24 +48,28 @@ div.description{
 }
 
 /*Colours*/
-div.pgreen{
-    color: #F0FFE0;
+div.darkblue{
+    color: #0000FE;
 }
 
-div.lgreen{
-    color: #5CB25D;
+div.blue{
+    color: #08FEFF;
 }
 
-div.dgreen{
-    color: #0F5132; 
+div.green{
+    color: #02FF00;
 }
 
-div.orange{
-    color: #FFB656;
+div.red{
+    color: #FE0505;
+}
+
+div.pink{
+    color: #FF00FF;
 }
 
 div.yellow{
-    color: #FFFF00;
+    color: #FFFF05;
 }
 
 /*Layout*/
