@@ -171,12 +171,6 @@ img {
     display: block;
 }
 
-
-div.logo img {
-    width: 100px;
-    max-height: 100px;
-}
-
 /* marquee */
 @keyframes marquee {
     0% {
@@ -224,7 +218,23 @@ div.title{
 
 div.subheadings{
     font-family: "tahoma";
-    font-size: 35px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+div.logo img {
+    width: 100px;
+    max-height: 100px;
 }
 
 div.tvguide{
