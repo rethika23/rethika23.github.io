@@ -194,3 +194,13 @@ div.marquee {
     animation: marquee 30s linear infinite;
 }
 
+/* TV guide */
+div.title{
+    font-family: "tahoma";
+    font-size: 35px;
+}
+
+div.subheadings{
+    font-family: "tahoma";
+    font-size: 35px;
+}
