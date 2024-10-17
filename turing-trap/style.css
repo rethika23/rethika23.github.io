@@ -168,7 +168,7 @@ img {
   }
 
 .marquee-container {
-    background-color: #82ae66;
+    background-color: #FE0505;
     color: #F0FFE0;
     font-weight: bold;
     text-align: center;
@@ -185,6 +185,7 @@ img {
 }
 
 div.marquee {
+    font-family: "tahoma";
     top: 0;
     left: 100%;
     width: 100%;
