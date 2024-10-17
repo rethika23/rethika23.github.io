@@ -157,6 +157,12 @@ img {
     display: block;
 }
 
+
+div.logo img {
+    width: 100px;
+    max-height: 100px;
+}
+
 /* marquee */
 @keyframes marquee {
     0% {
@@ -203,4 +209,21 @@ div.title{
 div.subheadings{
     font-family: "tahoma";
     font-size: 35px;
+}
+
+div.row{
+    font-family: "tahoma";
+    font-size: 35px;
+    font-weight: bolder;
+    color: #FFFF05;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+div.mins{
+    background-color:#02FF00;
+}
+
+div.hour{
+    background-color: #FF00FF;
 }
