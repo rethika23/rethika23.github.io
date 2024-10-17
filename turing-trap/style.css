@@ -98,6 +98,10 @@ div.bottom-large{
     margin-bottom: 100px;
 }
 
+div.top-small{
+    margin-top: 50px;
+}
+
 
 /* Alignment */
 div.centre{
@@ -266,7 +270,7 @@ div.row{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 div.mins{
