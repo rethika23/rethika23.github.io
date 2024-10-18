@@ -170,8 +170,8 @@ div.card{
 
 /* Images */
 div.card img {
-    width: 20%;
-    height: 20%;
+    width: 60%;
+    height: 60%;
     object-fit: cover;
 }
 
