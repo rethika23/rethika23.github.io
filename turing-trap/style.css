@@ -9,31 +9,36 @@
     font-family: "tahoma";
 }
 
+@font-face {
+    src:url("EuroStyle\ Normal.woff");
+    font-family: "eurostyle";
+}
+
 body{
     background-color: black;
 }
 
 /*Fonts*/
 div.largesttext{
-    font-family: "denk";
+    font-family: "tahoma";
     font-size: 120px;
     text-align: center;
 }
 
 div.largetext{
-    font-family: "tahoma";
+    font-family: "eurostyle";
     font-size: 60px;
     text-align: center;
 }
 
 div.mediumtext{
-    font-family: "denk";
+    font-family: "tahoma";
     font-size: 40px;
     text-align: center;
 }
 
 div.smalltext{
-    font-family: "tahoma";
+    font-family: "eurostyle";
     font-size: 30px;
     text-align: center;
 }
@@ -52,8 +57,8 @@ div.description{
 }
 
 div.explanation{
-    font-family: "tahoma";
-    font-size: 16px;
+    font-family: "eurostyle";
+    font-size: 24px;
 
 }
 
@@ -229,7 +234,7 @@ div.title{
 }
 
 div.subheadings{
-    font-family: "tahoma";
+    font-family: "eurostyle";
     font-size: 30px;
     display: flex;
     justify-content: space-around;
