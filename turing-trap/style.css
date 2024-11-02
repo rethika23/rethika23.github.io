@@ -102,7 +102,7 @@ div.width99{
 
 /* Margins */
 div.bottom-small{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 div.bottom-large{
@@ -113,8 +113,17 @@ div.top-small{
     margin-top: 50px;
 }
 
+div.top-large{
+    margin-top: 100px;
+}
+
 div.margin-text{
     margin-bottom: 15px;
+}
+
+/* Padding */
+div.padding-bottom{
+    padding-bottom: 100px;
 }
 
 
